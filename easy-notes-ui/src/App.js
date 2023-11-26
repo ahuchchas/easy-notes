@@ -8,7 +8,8 @@ function App() {
   const [content, setContent] = useState("");
 
   const [selectedNote, setSelectedNote] = useState(null);
-  const serverBaseUrl = "http://localhost:5000";
+  // const serverBaseUrl = "http://localhost:5000";
+  const serverBaseUrl = "https://easy-notes-server.vercel.app/";
 
   async function fetchNotes() {
     try {
